@@ -1,5 +1,5 @@
 {
-  "name": "inmobiliara",
+  "name": "Inmobiliara",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,10 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "babel-eslint": "^10.1.0",
     "react": "17.0.2",
-    "react-native": "0.65.1"
+    "react-native": "0.65.1",
+    "react-native-rename": "^2.9.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

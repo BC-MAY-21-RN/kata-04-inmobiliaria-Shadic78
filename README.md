@@ -1,6 +1,6 @@
 ![BrightCoders Logo](img/logo-bc.png)
 
-# Inmobiliaria
+# Inmobiliara
 
 ![Cover](img/cover.jpg)
 <span>Photo by <a href="https://unsplash.com/@jd_alon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jose Alonso</a> on <a href="https://unsplash.com/s/photos/rental?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
@@ -18,7 +18,7 @@
   
 ## Requerimientos funcionales
   
-  Una empresa inmobiliaria necesita una App para poder mostrar a sus clientes las propiedades que tiene disponibles en renta. La App mostrar un listado de todas las propiedades disponibles mostrando la siguiente información para cada propiedad:
+  Una empresa Inmobiliara necesita una App para poder mostrar a sus clientes las propiedades que tiene disponibles en renta. La App mostrar un listado de todas las propiedades disponibles mostrando la siguiente información para cada propiedad:
   - Nombre
   - Dirección
   - Número de habitaciones
@@ -51,8 +51,8 @@
 
 En la carpeta [img](/img) se encuentra el diseño solicitado en formato PNG y [Figma]().
 
-![inmobiliaria-card](img/inmobiliaria-card.png)
-<img src="img/inmobiliaria.png" alt="inmobiliaria" width="450"/>
+![Inmobiliara-card](img/Inmobiliara-card.png)
+<img src="img/Inmobiliara.png" alt="Inmobiliara" width="450"/>
 
 ## Flujo de trabajo sugerido
 

@@ -1,4 +1,4 @@
-package com.inmobiliara;
+package com.Inmobiliara;
 
 import com.facebook.react.ReactActivity;
 
