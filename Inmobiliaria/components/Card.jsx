@@ -4,6 +4,7 @@ import CardContainer from './CardContainer';
 import TextAddress from './TextAddress';
 import TextWithIcon from './textWithIcon';
 import CardImage from './CardImage';
+import CardButton from './CardButton';
 
 const Card = () => {
   return(
@@ -55,12 +56,15 @@ const Card = () => {
             230 ft
           </TextWithIcon>
         </View>
-        <View>
+        <View
+          style={styles.priceContainer}
+        >
           <Text
             style={styles.cardPrice}
           >
             $440/m
           </Text>
+          <CardButton />
         </View>
       </View>
     </CardContainer>
@@ -70,7 +74,7 @@ const Card = () => {
 const styles = StyleSheet.create({
   imageContainer: {
     flex: 1,
-    height: 95,
+    height: 100,
     justifyContent: 'center',
   },
   infoContainer: {
@@ -91,6 +95,11 @@ const styles = StyleSheet.create({
   cardPrice: {
     fontWeight: 'bold',
     fontSize: 17,
+  },
+  priceContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 5,
   }
 });
 
