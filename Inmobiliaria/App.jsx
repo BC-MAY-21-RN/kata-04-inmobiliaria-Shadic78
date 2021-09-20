@@ -1,22 +1,11 @@
 import React from 'react';
-import {Text, View, StyleSheet} from 'react-native';
-import Card from './components/Card';
+import {View, StyleSheet} from 'react-native';
+import CardGallery from './components/CardGallery';
 
 const App = () => {
   return (
-    <View style={styles.home}>
-      <Card />
-    </View>
+    <CardGallery />
   );
 };
-
-const styles = StyleSheet.create({
-  home: {
-    flex: 1,
-    justifyContent: 'flex-start',
-    alignItems: 'center',
-    backgroundColor: '#e5e5e5',
-  },
-});
 
 export default App;
