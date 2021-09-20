@@ -3,6 +3,7 @@ import {Text, Image, View, StyleSheet} from 'react-native';
 import CardContainer from './CardContainer';
 import TextAddress from './TextAddress';
 import TextWithIcon from './textWithIcon';
+import CardImage from './CardImage';
 
 const Card = () => {
   return(
@@ -10,7 +11,9 @@ const Card = () => {
       <View
         style={styles.imageContainer}
       >
-
+        <CardImage 
+          rating='4.7'
+        />
       </View>
       <View
         style={styles.infoContainer}
@@ -52,6 +55,13 @@ const Card = () => {
             230 ft
           </TextWithIcon>
         </View>
+        <View>
+          <Text
+            style={styles.cardPrice}
+          >
+            $440/m
+          </Text>
+        </View>
       </View>
     </CardContainer>
   );
@@ -60,9 +70,12 @@ const Card = () => {
 const styles = StyleSheet.create({
   imageContainer: {
     flex: 1,
+    height: 95,
+    justifyContent: 'center',
   },
   infoContainer: {
     flex: 2,
+    paddingLeft: 18,
   },
   cardTitle: {
     fontSize: 17,
@@ -71,8 +84,13 @@ const styles = StyleSheet.create({
   },
   containerIcons: {
     marginTop: 3,
+    marginBottom: 3,
     flexDirection: 'row',
     justifyContent: 'space-between',
+  },
+  cardPrice: {
+    fontWeight: 'bold',
+    fontSize: 17,
   }
 });
 
